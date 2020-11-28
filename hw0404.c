@@ -5,7 +5,7 @@
 int main()
 {
 	int32_t r,n;
-  printf("Please enter the resistance (1-100):");
+  	printf("Please enter the resistance (1-100):");
 	scanf("%d",&r);
 	printf("Please enter n (1-100):");
 	scanf("%d",&n);
