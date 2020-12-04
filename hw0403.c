@@ -13,5 +13,9 @@ int main()
 		printf("invaild input");
 		return 0;
 	}
-	else printf("%g\n",Taylor(k));
+	else 
+	for(int i=1;i<=k;i++)
+	{
+		printf("%2d %f\n",i,Taylor(i));
+	}
 }
