@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdint.h>
+#include<math.h>
 #include"hw0403.h"
 int main()
 {
@@ -7,10 +8,10 @@ int main()
 	printf("k-th order Taylor for e\n");
 	printf("Please enter k: ");
 	scanf("%d",&k);
-	if(k<1)
+	if(k<1||k>pow(2,32))
 	{
 		printf("invaild input");
 		return 0;
 	}
-	else printf("%f\n",Taylor(k));
+	else printf("%g\n",Taylor(k));
 }

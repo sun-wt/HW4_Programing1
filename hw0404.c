@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdint.h>
+#include<ctype.h>
 #include"hw0404.h"
 
 int main()
@@ -9,7 +10,7 @@ int main()
 	scanf("%d",&r);
 	printf("Please enter n (1-100):");
 	scanf("%d",&n);
-	printf("%f\n",Resistance(n,r));
+	printf("%g\n",Resistance(n,r));
 }
 	 
 
